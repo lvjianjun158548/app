@@ -1,0 +1,27 @@
+/* pages/tmpl/tmpl.wxss */
+
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_1489364_3wskz8oi3d7.eot?t=1572684154120'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_1489364_3wskz8oi3d7.eot?t=1572684154120#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPYAAsAAAAACAwAAAOKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDcIMkATYCJAMMCwgABCAFhG0HORvtBlFULgpkPzV5EhhIM4QxAAgCSUQAAAAAkGDZwQQiqPb77Nndj+gOQV2d5/KnACUmykQlRkX4qBgdDWjE25qum2FUzrMlak01fUe+3emlKeM8TqMUQoJwDOm9f2l9af0gTiU0CUnJrwrYPoRhF1KiuN3nuZzexMDntyzHMTbt7Ue9AOOAAhtr0pEVSByIBtwwduVFHCbQtqhDP18dzlpTYYwKxPs4dLVmyqHU1IamUC9ZWMQnNc30Id3DR//98d9BGJHUMmPixdMy0Ca//JpkrMLcuwTleD6wZWTs0xTisTRwzQzT+0xtxWDVl9YVIY0Vqyp8hWqqr/SHl4g6o7oLtmEm8YstI/g1yUg4/2XU0cBnfEHs9CuLPBqpDP6kkJnRubc0ho0u7nbsL4/jEysHaZnJKZ1zQzcIkaOH0CzKvBNgi761Y7l4Cin6RTTsmB8eRvAVFK33EqlXrWnMEpOYlZvSInThAtHFrxd2JV8fJmVf6yBkXsGuJm+5CnSwMyGKTDy1QfceMyOR4XURnF2lgBydCfmFJvtPWLpw/hzBR8g5C53CrKUpySKMiyUwh76IPw+xJKqhz+IvQ8ozhKDUBSrx/zz3Yv7PWBL0/lY9i2aWoK+VERVMKmGLua1S/5NNqQsyd3nmC4lH5FxC5xOpK5kVFF3MLmtpzcayQb48vy+S1mB0zzjXJCeaU9ofmWkRMRhVSrgLc43vGeN0j8n8lygjlZfKQGUvXsIZDo8zA1/WrxQSv03E5cu7JoURmxF089uLV6IUCmV/RFi4vg8bpAKAaij/yskAVEv5tW70r/yMVZnu/RRzx6/aTbSAb9/Tq/xQNVRAe5fmjQaDH6ds2VBUteHMRVbYCj2YXSZKJLRVo99VD2O//qZZ62pC0yxG0rCArGmdLOw+ajoOUdd0hLY96+UdE8wUpYVdL4Aw9EbS9xXZ0Ics7Bc1c3/UDUMXbZdhvWHHZuS1PRhdwQC8J8Q+FcpySzuoPWJYZy4n1b7wilzFMRiqNNncGgvkMaZUt3AkokAx5bACx2GWEZRMCfrSi0TKcV+dXcZTz6dcazvDkEugAPA8gZiPFJTbWrRzrz9CoVrGxTWcivwVYpW4czDUM2hBrg1FK861PFO5CY0IoQCFkRxYAR/KzDQBZXm/BPKJnqhHsjTWR81UW0NvflP+fNugzdg5R4ocReeZ6nvtR5i7ha6lAQAA') format('woff2'),
+    url('//at.alicdn.com/t/font_1489364_3wskz8oi3d7.woff?t=1572684154120') format('woff'),
+    url('//at.alicdn.com/t/font_1489364_3wskz8oi3d7.ttf?t=1572684154120') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_1489364_3wskz8oi3d7.svg?t=1572684154120#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-gouwucheman:before {
+    content: "\e600";
+  }
+  
+  .icon-1:before {
+    content: "\e613";
+  }
+  

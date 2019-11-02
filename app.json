@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tmpl/tmpl",
+    "pages/public/import",
+    "pages/binddata/binddata",
+    "pages/index001/index001",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "public/template/user",
+    "public/fontfal/fontfal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信接口功能演示",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "color": "#333",
+    "position": "bottom",
+    "selectedColor": "#FF204A",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "/images/me.png",
+        "selectedIconPath": "/images/me_active.png"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "详情",
+        "iconPath": "/images/cate.png",
+        "selectedIconPath": "/images/cate_active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 1000000,
+    "uploadFile": 10000,
+    "connectSocket": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

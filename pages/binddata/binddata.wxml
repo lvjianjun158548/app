@@ -1,0 +1,24 @@
+<!--pages/binddata/binddata.wxml-->
+<block wx:for="{{items}}">
+    
+</block>
+<block wx:if="{{age<10}}">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        儿童
+    </view>
+</block>
+<block wx:elif="{{age<20}}">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        少年
+    </view>
+</block>
+<block wx:elif="{{age<30}}">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        青年
+    </view>
+</block>
+<block wx:else>
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        老年
+    </view>
+</block>

@@ -1,0 +1,22 @@
+<!--pages/detail/detail.wxml-->
+<text>215432</text>
+<view>{{age}}</view><br/>
+<view>{{user.id}}--</view><view>{{user.name}}--</view><view>{{user.age}}--</view>
+<block wx:for="{{users}}" wx:for-item="item" wx:for-index="index" wx:key="users">
+    <view> 索引：{{index}}---- {{item.id}}--{{item.name}}--{{item.age}}</view>
+</block>
+<block wx:if="{{age<18}}">
+    <view>少年</view>
+</block>
+
+<block wx:if="{{age<30}}">
+    <view>青年</view>
+</block>
+
+<block wx:if="{{age<40}}">
+    <view>中年</view>
+</block>
+<import src="/public/template/user.wxml" />
+<template is="user1" data="{{...user}}" />
+<view class="iconfont icon-1"></view>
+

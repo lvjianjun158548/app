@@ -1,0 +1,17 @@
+/* public/template/user.wxss */
+.list-item {
+    display: flex;
+    margin-top: 10rpx;
+    
+}
+.list-item-left {
+    width: 700rpx;
+    height: 186rpx;
+    margin: 0px,20px;
+}
+.list-item-right {
+    display: flex;
+    flex-direction: column;
+    
+
+}

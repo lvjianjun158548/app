@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">多福多寿{{motto}}</text>
+  </view>
+</view> -->
+<import  src="/public/template/user.wxml" />
+<view>
+  <image class="nav" src="https://attachment-center.boxuegu.com/data/picture/online/2019/08/28/18/410fffd082c44c1cbdbe7ee06cf521cb.jpg" />
+</view>
+<view class="icon-list">
+  <block wx:for="{{icon_pic}}" wx:key="icon_pic">
+    <view>
+      <image class="icon" src="{{item.src}}" />
+      <text>{{item.text}}</text>
+    </view>
+  </block>
+</view>
+<!-- 列表 -->
+<view class="list">
+  <view class="list-nav">
+    <view>就业课</view>
+    <view>更多</view>
+  </view>
+  <!-- 模板 -->
+  <block wx:for="{{class_list}}" wx:key="class_list">
+    <template is="list" data="{{...item}}"/>
+  </block>
+
+
+</view>

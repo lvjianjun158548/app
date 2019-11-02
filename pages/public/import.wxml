@@ -1,0 +1,8 @@
+<!--pages/public/import.wxml-->
+<template name="user1">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        <view>{{id}}</view>
+        <view>{{name}}</view>
+        <view>{{age}}</view>
+    </view>
+</template>
